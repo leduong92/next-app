@@ -1,0 +1,31 @@
+export interface CollectionDto {
+    id: string | null;
+    brandId: string;
+    name: string | null;
+    urlCode: string | null;
+    sortCode: number | null;
+    description: string | null;
+    metaKeyword: string | null;
+    metaDescription: string | null;
+    displayName: string | null;
+    imageUrl: string | null;
+    isActive: boolean | null;
+    isLogo: boolean | null;
+    isStory: boolean | null;
+    isDisplayName: boolean | null;
+    isDescription: boolean | null;
+    urlImageName: string | null;
+    isCarousel: boolean | null;
+    isUsShow: boolean | null;
+    isInternationalShow: boolean | null;
+    userCreated: string | null;
+    videoUrl: string | null;
+    isNew: boolean | null;
+    imageCount: number | null;
+    isImage: boolean | null;
+    lifeStyleId: number | null;
+    dateCreated: string | null;
+    userUpdated: string | null;
+    dateUpdated: string | null;
+    collectionImages: [];
+}
