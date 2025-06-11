@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
 // Thay bằng Stripe Secret Key của bạn
-const stripe = new Stripe("", { apiVersion: "2025-05-28.basil" });
+const stripe = new Stripe(`${process.env.NEXT_PRIVATE_STRIPE_KEY}`, { apiVersion: "2025-05-28.basil" });
 
 export async function POST(request: Request) {
     try {

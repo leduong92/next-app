@@ -4,7 +4,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import dynamic from "next/dynamic";
 
-const stripePromise = loadStripe(""); // 
+const stripePromise = loadStripe(`${process.env.NEXT_PUBLIC_STRIPE_KEY}`); // 
 
 
 const CheckoutForm = dynamic(() => import("@/components/CheckoutForm"), { ssr: false });
