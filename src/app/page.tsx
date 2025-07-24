@@ -38,11 +38,11 @@ const HomePage = () => {
                             </button>
                         </Link>
                     </div>
-                    <Link href="/search/living" prefetch={true} className='relative  min-h-[700px] w-full md:w-1/2'>
+                    <Link href="/search/living" prefetch={true} className='relative  min-h-[500px] w-full md:w-1/2'>
                         <Image src="https://theodorealexander.sirv.com/website/Frontend/Live/Menu/Banner_for_Room/living-room/1.jpg?profile=basic"
                             alt='Living Collection'
                             fill
-                            className='object-contain'
+                            className='object-cover'
                         />
                     </Link>
                 </div>
@@ -68,11 +68,11 @@ const HomePage = () => {
                             </button>
                         </Link>
                     </div>
-                    <Link href="/search/dining" prefetch={true} className='relative min-h-[700px] w-full md:w-1/2'>
+                    <Link href="/search/dining" prefetch={true} className='relative min-h-[500px] w-full md:w-1/2'>
                         <Image src="https://theodorealexander.sirv.com/website/Frontend/Live/Menu/Banner_for_Room/dining-room/1.jpg?profile=basic"
                             alt='Dining Collection'
                             fill
-                            className='object-contain'
+                            className='object-cover'
                         />
                     </Link>
                 </div>
@@ -98,11 +98,11 @@ const HomePage = () => {
                             </button>
                         </Link>
                     </div>
-                    <Link href="/search/bed" prefetch={true} className='relative min-h-[700px] w-full md:w-1/2'>
+                    <Link href="/search/bed" prefetch={true} className='relative min-h-[500px] w-full md:w-1/2'>
                         <Image src="https://theodorealexander.sirv.com/website/Frontend/Live/Menu/Banner_for_Room/bedroom/1.jpg?profile=basic"
                             alt='Bed Collection'
                             fill
-                            className='object-contain'
+                            className='object-cover'
                         />
                     </Link>
                 </div>
