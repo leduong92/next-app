@@ -7,11 +7,12 @@ import NavIcons from './NavIcons'
 
 const Navbar = () => {
     return (
-        <div className='h-16 px-4 md:px-8 lg:px-16 xl:32 2xl:64 sticky top-0 backGround boxShadown backDropFilter z-50'>
+        <div className='h-20 px-4 md:px-8 lg:px-16 xl:32 2xl:64 sticky top-0 backGround boxShadown backDropFilter z-50'>
             {/* MOBILE */}
             <div className='h-full flex items-center justify-between md:hidden'>
                 <Link href="/">
-                    <div className='text-xl md:text-2xl tracking-wide'>ECOM</div>
+                    {/* <div className='text-xl md:text-2xl tracking-wide'>ECOM</div> */}
+                    <Image src="/logo.png" alt='WorldCasa logo' width={200} height={80} className='py-2' />
                 </Link>
                 <NavMobile />
             </div>
@@ -20,8 +21,8 @@ const Navbar = () => {
                 {/* LEFT */}
                 <div className='w-1/3 xl:w-1/2 flex gap-4 items-center'>
                     <Link href="/" prefetch={true} className='flex items-center gap-3 outline-none'>
-                        <Image src="/logo.png" alt='' width={24} height={24} />
-                        <div className='text-2xl tracking-wide'>ECOM</div>
+                        <Image src="/logo.png" alt='WorldCasa logo' width={200} height={80} className='py-2' />
+                        {/* <div className='text-2xl tracking-wide'>ECOM</div> */}
                     </Link>
                     <div className='hidden xl:flex gap-4'>
                         <Link href="/" prefetch={true}><span className="underline-hover ">Home</span></Link>

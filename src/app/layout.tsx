@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Ecommerce',
     images: [
       {
-        url: 'https://next-app-eight-hazel-77.vercel.app/_next/image?url=https%3A%2F%2Ftheodorealexander.sirv.com%2Fwebsite%2FFrontend%2FLive%2FMenu%2FBanner_for_Collection%2Fsloane%2F4.jpg%3Fprofile%3Dbasic&w=1920&q=75', // ảnh full URL
+        url: 'https://theodorealexander.com/images/index.jpg', // ảnh full URL
         width: 1200,
         height: 630,
         alt: 'Ecommerce Preview',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ecommerce',
     description: 'Discover top-quality products at unbeatable prices. Shop now and enjoy fast delivery, secure checkout, and excellent customer support.',
-    images: ['https://next-app-eight-hazel-77.vercel.app/_next/image?url=https%3A%2F%2Ftheodorealexander.sirv.com%2Fwebsite%2FFrontend%2FLive%2FMenu%2FBanner_for_Collection%2Fsloane%2F4.jpg%3Fprofile%3Dbasic&w=1920&q=75'],
+    images: ['https://theodorealexander.com/images/index.jpg'],
   },
 }
 
